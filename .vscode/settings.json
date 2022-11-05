@@ -1,0 +1,23 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "MySQL",
+      "database": "db_dev",
+      "username": "root",
+      "password": "root"
+    },
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "${workspaceFolder:whatsmeow}/mdtest/mdtest.db",
+      "name": "WhatsMeow"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+//module go.mau.fi/whatsmeow/mdtest
 module go.mau.fi/whatsmeow/mdtest
 
 go 1.17
